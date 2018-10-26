@@ -1,0 +1,26 @@
+#_footer {
+    background-color: black;
+    width: auto;  
+    margin-top: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  #Name {
+    font-size: 20px;
+    /* left: 5%; */
+  }
+
+  #FMessage {
+    font-size: 20px;
+    /* left: 5%; */
+  }
+
+  #FIcon {
+    width: 24px;
+    /* left: 10%; */
+  }
+
+  /* #copyright {
+    position: relative;
+  } */

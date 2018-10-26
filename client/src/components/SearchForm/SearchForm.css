@@ -1,0 +1,25 @@
+#stats {
+    color: gold;
+}
+
+.tabs .tab a{
+    background-color: grey;
+    color: black
+}
+
+.tabs .tab a.active {
+    color: black !important
+}
+
+.tabs .tab a:hover {
+     color: black
+}
+
+.tab_00 {
+    color: white
+}
+.row .col.s12 {
+    padding: 2%;
+    color: white;
+    width: 50%
+}

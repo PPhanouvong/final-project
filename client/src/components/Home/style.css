@@ -1,0 +1,10 @@
+body {
+    background-image: url("rb6-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    margin-bottom: 15px;
+    /* display: flex; */
+    /* min-height: 100vh; */
+    /* flex-direction: column; */
+  }
