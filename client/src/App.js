@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route, Redirect} from 'react-router-dom';
 import axios from 'axios';
-
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
 import Home from "./components/Home";
+import TypeWriter from "./components/TypeWriter";
+
 
 class App extends Component {
   state = {
