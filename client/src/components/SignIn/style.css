@@ -1,0 +1,12 @@
+body {
+    background-image: url("./../SignUp/signup-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    margin-bottom: 15px;
+    color: gold;
+}
+
+#_submit {
+    background: black;
+}

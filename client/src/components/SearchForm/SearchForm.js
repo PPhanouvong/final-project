@@ -109,9 +109,9 @@ class SearchForm extends Component {
             value={this.state.platform}
             onChange={this.handleInputChange}
           />
-          <button onClick={this.handleFormSubmit}>Submit</button>
+          <button id='_submit' onClick={this.handleFormSubmit}>Submit</button>
         </form>
-        <Tabs className='grey-text tabs tabs-fixed-width tab-demo z-depth-20' id="uncontrolled-tab-example">
+        <Tabs className='grey-text tabs tabs-fixed-width tab-demo z-depth-20' id="uncontrolled-tab-example _tabs">
           <Tab title="Casual">
             Kills: {this.state.r6casualkills}
             <br></br>
@@ -127,7 +127,7 @@ class SearchForm extends Component {
             <br></br>
           </Tab>
           
-          <Tab title="Ranked">
+          <Tab id='_tabs' title="Ranked">
             Kills: {this.state.r6rankedkills}
             <br></br>
             Deaths: {this.state.r6rankeddeaths}
@@ -141,7 +141,7 @@ class SearchForm extends Component {
             WLR: {this.state.r6rankedwlr}
           </Tab>
 
-          <Tab title="Overall">
+          <Tab title="Overall" id='_tabs'>
             assists: {this.state.r6overallassists}
             <br></br>
             barricades built: {this.state.r6overallbarricades_built}
