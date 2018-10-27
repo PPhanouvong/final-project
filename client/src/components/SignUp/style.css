@@ -1,8 +1,20 @@
-/* #_signup {
-    background-image: url("signup-bg.png");
+body {
+    background-image: url("./../SignIn/signup-bg.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: black;
     margin-bottom: 15px;
     color: gold;
-} */
+    font-weight: bolder;
+}
+
+#_signup {
+    align-content: center;
+    text-align: center;
+    columns: 2;
+}
+
+#_submit {
+    background: black;
+    float: right;
+}
