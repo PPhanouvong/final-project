@@ -9,5 +9,14 @@
 
 #_logout {
     background: black;
-    
+    float: right;
+}
+
+#_username {
+    text-align: right;
+}
+
+#_header {
+    align-content: center;
+    text-align: center;
 }
