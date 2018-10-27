@@ -1,6 +1,10 @@
+body {
+    font-weight: bolder;
+}
+
 #typing {
     align-content: center;
     text-align: center;
     color: Gold;
-    font-size: 24px;
+    font-size: 36px;
 }

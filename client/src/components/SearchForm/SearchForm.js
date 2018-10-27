@@ -144,12 +144,6 @@ class SearchForm extends Component {
           <Tab title="Overall" id='_tabs'>
             assists: {this.state.r6overallassists}
             <br></br>
-            barricades built: {this.state.r6overallbarricades_built}
-            <br></br>
-            bullets fired: {this.state.r6overallbullets_fired}
-            <br></br>
-            bullets hit: {this.state.r6overallbullets_hit}
-            <br></br>
             headshots: {this.state.r6overallheadshots}
             <br></br>
             melee kills: {this.state.r6overallmelee_kills}
@@ -159,8 +153,6 @@ class SearchForm extends Component {
             reinforcements deployed: {this.state.r6overallreinforcements_deployed}
             <br></br>
             revives: {this.state.r6overallrevives}
-            <br></br>
-            steps moved: {this.state.r6overallsteps_moved}
             <br></br>
             suicides: {this.state.r6overallsuicides}
           </Tab>

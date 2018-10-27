@@ -4,24 +4,26 @@
 
 .tabs .tab a{
     background-color: grey;
-    color: black
+    color: black;
 }
 
 .tabs .tab a.active {
-    color: black !important
+    color: black !important;
 }
 
 .tabs .tab a:hover {
-     color: black
+     color: black;
 }
 
 .tab_00 {
-    color: white
+    color: white;
 }
 .row .col.s12 {
     padding: 2%;
     color: white;
-    width: 50%
+    width: 50%;
+    font-weight: bolder;
+    font-size: 24px;
 }
 
 #_tabs {

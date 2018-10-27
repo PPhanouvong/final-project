@@ -1,3 +1,8 @@
+body {
+    /* font-weight: bold; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #_home {
     background-image: url("rb6-bg.jpg");
     background-repeat: no-repeat;
@@ -19,4 +24,6 @@
 #_header {
     align-content: center;
     text-align: center;
+    font-weight: bolder;
+    font-size: 80px;
 }
